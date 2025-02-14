@@ -28,6 +28,8 @@
 > When using this repository, remember to remove the `.keep` files, as their
 > presence will cause installation failures.
 
+[![Version][version]](https://github.com/OWNER/REPONAME/releases)
+
 A short description of this module for [fish shell][fish shell].
 
 ## Installation
@@ -59,11 +61,22 @@ example output
 
 > The licence for the plug-in. I habitually choose MIT for my Fish plugins.
 
-[MIT](LICENCE.md)
+[MIT](./LICENCE.md)
+
+## Change Log
+
+[CHANGELOG](./CHANGELOG.md)
+
+## Contributing
+
+- [Contributing](./CONTRIBUTING.md)
+- [Contributors](./CONTRIBUTORS.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 [fish shell]: https://fishshell.com 'friendly interactive shell'
 [fisher]: https://github.com/jorgebucaran/fisher
 [fish]: https://github.com/fish-shell/fish-shell
+[version]: https://img.shields.io/github/tag/OWNER/REPONAME.svg?label=Version
 [creating a plugin]: https://github.com/jorgebucaran/fisher#creating-a-plugin
 [snippet]: https://fishshell.com/docs/current/index.html#configuration-files
 [events]: https://fishshell.com/docs/current/cmds/emit.html
