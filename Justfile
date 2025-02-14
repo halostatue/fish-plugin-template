@@ -37,6 +37,8 @@ init owner repo *name:
       -e '/^# <!-- remove-start -->/,/^# <!-- remove-end -->/d' \
       Justfile
 
+    git rm -f .github/FUNDING.yml
+
 # <!-- remove-end -->
 
 # Ensure that all `.fish` files have comment-version tags
