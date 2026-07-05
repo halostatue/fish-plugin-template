@@ -49,7 +49,7 @@ jobs:
 
       - uses: fish-shop/install-fish-shell@b93bca74575a36e725e51679b1c18748784a6afc # v2.1.19
       - uses: fish-shop/indent-check@6557200fc43e12e1eb2966da3e01cade9eb7e2ee # v2.2.110
-      - uses: fish-shop/syntax-check@94b38995daa6b96259ff2411f5257d89e65dd9ac # v2.2.107
+      - uses: fish-shop/syntax-check@f9a5452f25a01b3fb1212ed02c04b3617faca4ce # v2.2.108
       - uses: fish-shop/install-plugin@51b7b99773c98be71c046ccaaa7d586d37fbb68a # v2.3.112
         with:
           plugin-manager: fisher
