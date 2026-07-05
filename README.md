@@ -1,5 +1,10 @@
 # halostatue/fish-plugin-template
 
+> This template has been deprecated and will no longer see updates. I now use
+> [scaffold][scaffold] with [halostatue/scaffolds#fish][fish-scaffold].
+
+---
+
 > [!INFORMATION]
 >
 > Run `just init OWNER REPO *NAME` to make this your own. It will make changes
@@ -73,10 +78,12 @@ example output
 - [Contributors](./CONTRIBUTORS.md)
 - [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-[fish shell]: https://fishshell.com 'friendly interactive shell'
-[fisher]: https://github.com/jorgebucaran/fisher
-[fish]: https://github.com/fish-shell/fish-shell
-[version]: https://img.shields.io/github/tag/OWNER/REPONAME.svg?label=Version
 [creating a plugin]: https://github.com/jorgebucaran/fisher#creating-a-plugin
-[snippet]: https://fishshell.com/docs/current/index.html#configuration-files
 [events]: https://fishshell.com/docs/current/cmds/emit.html
+[fish shell]: https://fishshell.com 'friendly interactive shell'
+[fish-scaffold]: https://github.com/halostatue/scaffolds/tree/main/fish
+[fish]: https://github.com/fish-shell/fish-shell
+[fisher]: https://github.com/jorgebucaran/fisher
+[scaffold]: https://github.com/hay-kot/scaffold
+[snippet]: https://fishshell.com/docs/current/index.html#configuration-files
+[version]: https://img.shields.io/github/tag/OWNER/REPONAME.svg?label=Version
